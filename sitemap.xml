@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://www.alunovic.com/index.html</loc>
-    <lastmod>2020-06-05</lastmod>
+    <lastmod>2020-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.alunovic.com/s.html</loc>
-    <lastmod>2020-06-05</lastmod>
+    <lastmod>2020-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -155,7 +155,7 @@
   </url>
   <url>
     <loc>http://www.alunovic.com/alunovic.html</loc>
-    <lastmod>2020-06-05</lastmod>
+    <lastmod>2020-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -281,13 +281,13 @@
   </url>
   <url>
     <loc>http://www.alunovic.com/starter-copy.html</loc>
-    <lastmod>2020-06-05</lastmod>
+    <lastmod>2020-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://www.alunovic.com/oliv.html</loc>
-    <lastmod>2020-06-05</lastmod>
+    <lastmod>2020-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -298,6 +298,9 @@
     </image:image>
     <image:image>
       <image:loc>http://www.alunovic.com/images/tales%20of%20brave%20hestia_2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.alunovic.com/images/20200513_oliv_name%20tag2588x501.jpg</image:loc>
     </image:image>
   </url>
 </urlset>

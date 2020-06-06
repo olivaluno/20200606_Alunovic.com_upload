@@ -11,32 +11,76 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "starter-copy.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "starter-copy.css"], "outOfDate":[]};
 </script>
   
   <title>Starter Copy</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/starter-copy.css?crc=488043975" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/starter-copy.css?crc=533476649" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/nomq_starter-copy.css?crc=4128746359" id="nomq_pagesheet"/>
+  <![endif]-->
    </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- column -->
-   <div class="clearfix colelem" id="pu18259-4"><!-- group -->
-    <img class="grpelem" id="u18259-4" alt="ALUNOVIC" src="images/u18259-4.png?crc=4129392059" data-image-width="274"/><!-- rasterized frame -->
-    <img class="grpelem" id="u18258-4" alt="OLIVER" src="images/u18258-4.png?crc=3772382666" data-image-width="163"/><!-- rasterized frame -->
-   </div>
-   <a class="nonblock nontext Button rounded-corners clearfix colelem" id="buttonu18262" href="alunovic.html" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="u18263-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>works</p></div></a>
-   <div class="clearfix colelem" id="ppu18261"><!-- group -->
-    <div class="clearfix grpelem" id="pu18261"><!-- group -->
-     <div class="grpelem" id="u18261"><!-- simple frame --></div>
-     <img class="grpelem" id="u18256-4" alt="OLIV" src="images/u18256-4.png?crc=3855803343" data-image-width="163"/><!-- rasterized frame -->
-     <img class="grpelem" id="u18255-4" alt="EMAIL" src="images/u18255-4.png?crc=351332516" data-image-width="163"/><!-- rasterized frame -->
+  <div class="breakpoint active" id="bp_infinity" data-min-width="641"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- column -->
+    <div class="clearfix colelem" id="pu18259-4"><!-- group -->
+     <img class="grpelem temp_no_img_src" id="u18259-4" alt="ALUNOVIC" data-orig-src="images/u18259-4.png?crc=4129392059" data-image-width="274" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+     <img class="grpelem temp_no_img_src" id="u18258-4" alt="OLIVER" data-orig-src="images/u18258-4.png?crc=3772382666" data-image-width="163" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
     </div>
-    <div class="grpelem" id="u18260"><!-- simple frame --></div>
-    <img class="grpelem" id="u18257-4" alt="MONO +" src="images/u18257-4.png?crc=354581127" data-image-width="163"/><!-- rasterized frame -->
+    <a class="nonblock nontext Button rounded-corners clearfix colelem shared_content" id="buttonu18262" href="alunovic.html" data-visibility="changed" style="visibility:hidden" data-content-guid="buttonu18262_content"><!-- container box --><div class="clearfix grpelem" id="u18263-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>works</p></div></a>
+    <div class="clearfix colelem" id="ppu18261"><!-- group -->
+     <div class="clearfix grpelem" id="pu18261"><!-- group -->
+      <div class="grpelem shared_content" id="u18261" data-content-guid="u18261_content"><!-- simple frame --></div>
+      <img class="grpelem temp_no_img_src" id="u18256-4" alt="OLIV" data-orig-src="images/u18256-4.png?crc=3855803343" data-image-width="163" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+      <img class="grpelem temp_no_img_src" id="u18255-4" alt="EMAIL" data-orig-src="images/u18255-4.png?crc=351332516" data-image-width="163" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+     </div>
+     <div class="grpelem shared_content" id="u18260" data-content-guid="u18260_content"><!-- simple frame --></div>
+     <img class="grpelem temp_no_img_src" id="u18257-4" alt="MONO +" data-orig-src="images/u18257-4.png?crc=354581127" data-image-width="163" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+    </div>
+    <div class="verticalspacer" data-offset-top="425" data-content-above-spacer="424" data-content-below-spacer="75" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
-   <div class="verticalspacer" data-offset-top="425" data-content-above-spacer="424" data-content-below-spacer="75" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+  </div>
+  <div class="breakpoint" id="bp_640" data-min-width="322" data-max-width="640"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu18259-4"><!-- group -->
+     <img class="grpelem temp_no_id temp_no_img_src" alt="ALUNOVIC" data-orig-src="images/u18259-42.png?crc=69595974" data-image-width="151" data-orig-id="u18259-4" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+     <img class="grpelem temp_no_id temp_no_img_src" alt="OLIVER" data-orig-src="images/u18258-42.png?crc=3778685583" data-image-width="89" data-orig-id="u18258-4" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+    </div>
+    <span class="nonblock nontext Button rounded-corners clearfix colelem placeholder" data-placeholder-for="buttonu18262_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem temp_no_id" data-orig-id="ppu18261"><!-- group -->
+     <div class="clearfix grpelem temp_no_id" data-orig-id="pu18261"><!-- group -->
+      <span class="grpelem placeholder" data-placeholder-for="u18261_content"><!-- placeholder node --></span>
+      <img class="grpelem temp_no_id temp_no_img_src" alt="OLIV" data-orig-src="images/u18256-42.png?crc=4175425787" data-image-width="89" data-orig-id="u18256-4" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+      <img class="grpelem temp_no_id temp_no_img_src" alt="EMAIL" data-orig-src="images/u18255-42.png?crc=492650581" data-image-width="89" data-orig-id="u18255-4" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+     </div>
+     <span class="grpelem placeholder" data-placeholder-for="u18260_content"><!-- placeholder node --></span>
+     <img class="grpelem temp_no_id temp_no_img_src" alt="MONO +" data-orig-src="images/u18257-42.png?crc=21669570" data-image-width="89" data-orig-id="u18257-4" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+    </div>
+    <div class="verticalspacer" data-offset-top="452" data-content-above-spacer="451" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_321" data-max-width="321"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu18259-4"><!-- group -->
+     <img class="grpelem temp_no_id temp_no_img_src" alt="ALUNOVIC" data-orig-src="images/u18259-43.png?crc=305623937" data-image-width="75" data-orig-id="u18259-4" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+     <img class="grpelem temp_no_id temp_no_img_src" alt="OLIVER" data-orig-src="images/u18258-43.png?crc=127824023" data-image-width="45" data-orig-id="u18258-4" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+    </div>
+    <span class="nonblock nontext Button rounded-corners clearfix colelem placeholder" data-placeholder-for="buttonu18262_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem temp_no_id" data-orig-id="ppu18261"><!-- group -->
+     <div class="clearfix grpelem temp_no_id" data-orig-id="pu18261"><!-- group -->
+      <span class="grpelem placeholder" data-placeholder-for="u18261_content"><!-- placeholder node --></span>
+      <img class="grpelem temp_no_id temp_no_img_src" alt="OLIV" data-orig-src="images/u18256-43.png?crc=338633431" data-image-width="45" data-orig-id="u18256-4" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+      <img class="grpelem temp_no_id temp_no_img_src" alt="EMAIL" data-orig-src="images/u18255-43.png?crc=468758842" data-image-width="45" data-orig-id="u18255-4" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+     </div>
+     <span class="grpelem placeholder" data-placeholder-for="u18260_content"><!-- placeholder node --></span>
+     <img class="grpelem temp_no_id temp_no_img_src" alt="MONO +" data-orig-src="images/u18257-43.png?crc=4076569203" data-image-width="45" data-orig-id="u18257-4" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+    </div>
+    <div class="verticalspacer" data-offset-top="583" data-content-above-spacer="582" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   </div>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -49,13 +93,13 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
