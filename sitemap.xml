@@ -152,6 +152,9 @@
     <image:image>
       <image:loc>http://www.alunovic.com/images/screen%20shot%202019-01-03%20at%20141938.png</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://www.alunovic.com/images/screen%20shot%202019-01-03%20at%20133736287x286.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://www.alunovic.com/alunovic.html</loc>
@@ -301,6 +304,15 @@
     </image:image>
     <image:image>
       <image:loc>http://www.alunovic.com/images/20200513_oliv_name%20tag2588x501.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.alunovic.com/images/20200513_oliv_name%20tag2414x353.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.alunovic.com/images/tales%20of%20brave%20hestia_1174x248.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.alunovic.com/images/tales%20of%20brave%20hestia_2176x248.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
